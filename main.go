@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-// You can edit this code!
-// Click here and start typing.
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, 世界")
-=======
 package main
 
 import (
@@ -34,5 +24,5 @@ func main() {
 
 	// s5 := []int{100, 200, 300}
 	// printSlicePtr(&s5, "&[]int{100, 200, 300}")
->>>>>>> e960428 (Initial commit)
+
 }
