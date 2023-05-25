@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"unsafe"
 )
 
 func main() {
@@ -25,4 +26,9 @@ func main() {
 	// s5 := []int{100, 200, 300}
 	// printSlicePtr(&s5, "&[]int{100, 200, 300}")
 
+	// s5 := make([]int, 0, 3)
+	// printSlice(s5, "make([]int, 0, 3)")
+
+	empty := struct{}{}
+	fmt.Printf("Address of struct{}{} = %p\n", unsafe.Pointer(&empty))
 }
